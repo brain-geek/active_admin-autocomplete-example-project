@@ -62,6 +62,10 @@ GEM
     fastercsv (1.5.4)
     formtastic (2.1.1)
       actionpack (~> 3.0)
+    globalize3 (0.2.0)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      paper_trail (~> 2)
     has_scope (0.5.1)
     hike (1.2.1)
     i18n (0.6.0)
@@ -90,6 +94,8 @@ GEM
     mime-types (1.17.2)
     multi_json (1.1.0)
     orm_adapter (0.0.6)
+    paper_trail (2.6.0)
+      rails (~> 3)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -150,6 +156,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin
   coffee-rails (~> 3.2.1)
+  globalize3
   jquery-rails
   meta_search (>= 1.1.0.pre)
   rails (= 3.2.2)
